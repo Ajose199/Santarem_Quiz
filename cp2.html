@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CP2 – Convento de São Francisco</title>
+</head>
+<body>
+    <h1>CP2 – Convento de São Francisco</h1>
+    <p>
+        Fundado em 1242, integrando-se na corrente "mendicante" visível na amplitude do espaço.
+        Na sua estrutura possui sinais marcantes das várias épocas, desde o gótico até ao barroco,
+        passando pelo manuelino e renascença. Na nave central encontra-se o coro alto, patrocinado pelo Rei
+        D. Fernando para albergar o seu próprio túmulo e o da sua mãe D. Constança. Este local tem salas
+        de espetáculos, congressos e reuniões com capacidade para 270 pessoas.
+    </p>
+    <h2>Quiz</h2>
+    <p><strong>Lembras qual é o túmulo que aqui está?</strong></p>
+    <button onclick="sendAnswer('D. João')">D. João</button>
+    <button onclick="sendAnswer('D. Fernando')">D. Fernando</button>
+    <button onclick="sendAnswer('D. Afonso')">D. Afonso</button>
+    <button onclick="sendAnswer('D. Manuel')">D. Manuel</button>
+
+    <script>
+        function sendAnswer(answer) {
+            const groupLink = "https://chat.whatsapp.com/Fv2C2IOvtfaHOkqnn99wsp?text=Minha%20resposta%20é%20" + encodeURIComponent(answer);
+            window.open(groupLink, "_blank");
+        }
+    </script>
+</body>
+</html>
