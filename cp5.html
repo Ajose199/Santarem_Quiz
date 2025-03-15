@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CP5 – Sé Catedral e Praça da Bandeira</title>
+</head>
+<body>
+    <h1>CP5 – Sé Catedral e Praça da Bandeira</h1>
+    <p>
+        Este templo jesuíta, datado do século XVII, foi erigido no local onde se encontrava o Paço Real da Alcáçova Nova. 
+        Mais tarde, com a expulsão dos jesuítas de Portugal, por ordem do Marquês de Pombal, o edifício passou a acolher 
+        o Seminário Patriarcal. Aquando da criação da Diocese de Santarém, em 1975, a igreja foi elevada a Sé Catedral.
+    </p>
+    <h2>Quiz</h2>
+    <p><strong>Qual é o estilo dominante desta construção?</strong></p>
+    <button onclick="sendAnswer('Gótico')">Gótico</button>
+    <button onclick="sendAnswer('Barroco')">Barroco</button>
+    <button onclick="sendAnswer('Manuelino')">Manuelino</button>
+    <button onclick="sendAnswer('Românico')">Românico</button>
+
+    <script>
+        function sendAnswer(answer) {
+            const groupLink = "https://chat.whatsapp.com/Fv2C2IOvtfaHOkqnn99wsp?text=Minha%20resposta%20é%20" + encodeURIComponent(answer);
+            window.open(groupLink, "_blank");
+        }
+    </script>
+</body>
+</html>
