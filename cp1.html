@@ -7,7 +7,11 @@
 </head>
 <body>
     <h1>CP1 – Igreja de Santa Clara</h1>
-    <p>O Mosteiro de Santa Clara também designado por Igreja de Santa Clara é um antigo convento de clarissas, edificada em 1259. Constitui um dos monumentos mais emblemáticos do gótico mendicante da cidade de Santarém, situando-se na proximidade do Convento de S. Francisco, outro exemplar marcante deste estilo arquitetônico.</p>
+    <p>
+        O Mosteiro de Santa Clara também designado por Igreja de Santa Clara é um antigo convento de clarissas, edificada em 1259.
+        Constitui um dos monumentos mais emblemáticos do gótico mendicante da cidade de Santarém, situando-se na proximidade do
+        Convento de S. Francisco, outro exemplar marcante deste estilo arquitetônico.
+    </p>
     <h2>Quiz</h2>
     <p><strong>Qual o ano que a Igreja de Stª Clara foi edificada?</strong></p>
     <button onclick="sendAnswer('1240')">1240</button>
@@ -17,7 +21,7 @@
 
     <script>
         function sendAnswer(answer) {
-            const groupLink = "https://chat.whatsapp.com/Fv2C2IOvtfaHOkqnn99wsp?text=Minha%20resposta%20é%20" + encodeURIComponent(answer);
+            const groupLink = "https://api.whatsapp.com/send?phone=&text=Minha%20resposta%20para%20o%20CP1%20é%20" + encodeURIComponent(answer);
             window.open(groupLink, "_blank");
         }
     </script>
