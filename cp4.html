@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CP4 – Mercado Municipal de Santarém</title>
+</head>
+<body>
+    <h1>CP4 – Mercado Municipal de Santarém</h1>
+    <p>
+        Datado de 1930, sob o risco do Arquiteto Cassiano Branco, veio substituir o mercado ao ar livre
+        que sobreviveu durante séculos na Praça Visconde Serra do Pilar, conhecida como Praça Velha.
+        Para além da linguagem arquitetónica do edifício, sobressai, no seu exterior, um notável conjunto de cinquenta
+        e cinco painéis de azulejos figurativos e oito decorativos encomendados à extinta Fábrica de Sacavém,
+        e que representam motivos da propaganda turística e regional, que caracterizavam a Capital do Ribatejo
+        nos inícios do século XX.
+    </p>
+    <h2>Quiz</h2>
+    <p><strong>Quantos painéis de azulejos figurativos há?</strong></p>
+    <button onclick="sendAnswer('50')">50</button>
+    <button onclick="sendAnswer('55')">55</button>
+    <button onclick="sendAnswer('60')">60</button>
+    <button onclick="sendAnswer('65')">65</button>
+
+    <script>
+        function sendAnswer(answer) {
+            const groupLink = "https://chat.whatsapp.com/Fv2C2IOvtfaHOkqnn99wsp?text=Minha%20resposta%20é%20" + encodeURIComponent(answer);
+            window.open(groupLink, "_blank");
+        }
+    </script>
+</body>
+</html>
