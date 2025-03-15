@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CP8 – Jardins Porta do Sol</title>
+</head>
+<body>
+    <h1>CP8 – Jardins Porta do Sol</h1>
+    <p>
+        Neste local podemos observar outra porta que dava para o Alfange, alguns lanços de muros e um troço da porta de 
+        Santiago, completam os vestígios do que foi um dos mais importantes castelos medievais. Termine o dia com uma 
+        caminhada pelas Portas do Sol, onde você pode desfrutar de vistas pitorescas sobre o rio Tejo.
+    </p>
+    <h2>Quiz</h2>
+    <p><strong>Qual é o rio que passa por Santarém?</strong></p>
+    <button onclick="sendAnswer('Rio Douro')">Rio Douro</button>
+    <button onclick="sendAnswer('Rio Guadiana')">Rio Guadiana</button>
+    <button onclick="sendAnswer('Rio Tejo')">Rio Tejo</button>
+    <button onclick="sendAnswer('Rio Mondego')">Rio Mondego</button>
+
+    <script>
+        function sendAnswer(answer) {
+            const groupLink = "https://chat.whatsapp.com/Fv2C2IOvtfaHOkqnn99wsp?text=Minha%20resposta%20é%20" + encodeURIComponent(answer);
+            window.open(groupLink, "_blank");
+        }
+    </script>
+</body>
+</html>
