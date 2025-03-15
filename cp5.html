@@ -21,8 +21,10 @@
 
     <script>
         function sendAnswer(answer) {
-            const groupLink = "https://api.whatsapp.com/send?phone=&text=Minha%20resposta%20para%20o%20CP5%20é%20" + encodeURIComponent(answer);
-            window.open(groupLink, "_blank");
+            const numero = "351964004643"; // Substitua pelo número no formato internacional.
+            const mensagem = "Minha resposta para o CP5 é " + answer;
+            const linkWhatsApp = `https://api.whatsapp.com/send?phone=${numero}&text=${encodeURIComponent(mensagem)}`;
+            window.open(linkWhatsApp, "_blank");
         }
     </script>
 </body>
