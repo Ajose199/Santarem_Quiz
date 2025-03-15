@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CP6 – Igreja Santa Maria da Graça</title>
+</head>
+<body>
+    <h1>CP6 – Igreja Santa Maria da Graça</h1>
+    <p>
+        Igualmente conhecida como Igreja da Graça ou como Igreja de Santo Agostinho, localiza-se no Largo Pedro Álvares 
+        Cabral em pleno centro histórico da cidade de Santarém. A igreja, inserida no conjunto do convento dos Eremitas 
+        Calçados de Santo Agostinho, é um dos monumentos mais emblemáticos da cidade, constituindo um dos mais importantes 
+        exemplares da arte gótica no país. Neste templo, Monumento Nacional desde 1910, encontra-se sepultado Pedro Álvares 
+        Cabral, descobridor do Brasil.
+    </p>
+    <h2>Quiz</h2>
+    <p><strong>Qual é o estilo dominante desta construção?</strong></p>
+    <button onclick="sendAnswer('Barroco')">Barroco</button>
+    <button onclick="sendAnswer('Românico')">Românico</button>
+    <button onclick="sendAnswer('Gótico')">Gótico</button>
+    <button onclick="sendAnswer('Manuelino')">Manuelino</button>
+
+    <script>
+        function sendAnswer(answer) {
+            const groupLink = "https://chat.whatsapp.com/Fv2C2IOvtfaHOkqnn99wsp?text=Minha%20resposta%20é%20" + encodeURIComponent(answer);
+            window.open(groupLink, "_blank");
+        }
+    </script>
+</body>
+</html>
